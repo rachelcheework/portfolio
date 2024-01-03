@@ -8,17 +8,20 @@ import Navigation from './pages/Navigation';
 
 const App = () => {
   return (
-    <Router>
-      <div>
-        <Navigation/>        
-        <Routes>
-          <Route path="/" exact component={Homepage} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/ portfolio" component={Portfolio} />
-        </Routes>
-      </div>
-    </Router>
+    // <Router>
+    //   <div>
+    //     <Navigation/>        
+    //     <Routes>
+    //       <Route path="/" exact component={Homepage} />
+    //       <Route path="/about" component={About} />
+    //       <Route path="/contact" component={Contact} />
+    //       <Route path="/ portfolio" component={Portfolio} />
+    //     </Routes>
+    //   </div>
+    // </Router>
+    <div>
+      <h1>hello there!</h1>
+    </div>
   );
 };
 
